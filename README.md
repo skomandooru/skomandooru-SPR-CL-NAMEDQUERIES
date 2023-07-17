@@ -1,7 +1,16 @@
-# Named Queries
-This lab will teach about how to use Named Queries in Spring Data to perform common types of queries without the need for an explicit query.
+# SPR-CL-NAMEDQUERIES
 
-# Files to modify
-You should modify only the PlayerRepository interface in the Repository package.
+This coding lab covers unit "Spring Data JPA", module "Spring Data Repositories".
 
-ted balashov 2023
+## Instructions
+- This program is a CRUD application that uses a Repository bean to interact with a database
+- The Repository interfaces includes method signatures that allow us to make specific queries for books
+- Look at Application.Repository.BookRepository.java for any TODO statements and fill out the method signatures
+
+## Shouldn't Modify (But Look at for Context)
+- Application.Model.Book.java
+- Application.App.java
+
+
+## Should Modify
+- Application.Repository.BookRepository.java
